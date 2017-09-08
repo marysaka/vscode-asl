@@ -1,0 +1,31 @@
+{
+    "name": "vscode-asl",
+    "displayName": "vscode-asl",
+    "icon": "img/icon.png",
+    "description": "ASL Syntax highlighting for VSCode",
+    "version": "0.0.1",
+    "publisher": "Thog",
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/Thog/vscode-asl.git"
+	},
+    "contributes": {
+        "languages": [{
+            "id": "asl",
+            "aliases": ["ASL", "asl"],
+            "extensions": [".asl", ".dsl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "asl",
+            "scopeName": "source.asl",
+            "path": "./syntaxes/asl.language.json"
+        }]
+    }
+}
