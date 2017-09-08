@@ -1,9 +1,9 @@
 {
     "name": "vscode-asl",
-    "displayName": "vscode-asl",
+    "displayName": "ASL",
     "icon": "img/icon.png",
     "description": "ASL Syntax highlighting for VSCode",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "Thog",
     "engines": {
         "vscode": "^0.10.1"
