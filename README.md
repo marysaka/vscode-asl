@@ -8,4 +8,4 @@ In the command palette (`cmd-shift-p`) select `Install Extension` and choose `AS
 ![Example of Highlighting](https://raw.githubusercontent.com/Thog/vscode-asl/master/img/example.png)
 
 ## License
-[MIT](LICENSE)
+[MIT](LICENSE.md)
